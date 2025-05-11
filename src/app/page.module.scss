@@ -1,0 +1,18 @@
+.main {
+    background-color: #252422;
+    color: #fffcf2;
+
+    .container,
+    .spacer {
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 20vw;
+            overflow: hidden;
+        }
+    }
+}
