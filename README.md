@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💥 RANDOMIZED — GSAP + ScrollTrigger
 
-## Getting Started
+Ce projet est une démonstration simple de l'utilisation de [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) & [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) dans une application Next.js.  
+Il fait partie des démos créées pour mes vidéos TikTok sur le développement web.
 
-First, run the development server:
+![preview](./public/randomized.png)
+
+---
+
+## 🚀 Lancer le projet en local
+
+### 1. Cloner le projet
+
+```bash
+git clone https://github.com/3mpty-s-playground/randomized.git
+cd randomized
+```
+
+### 2. Installer les dépendances
+
+```bash
+npm i
+```
+
+### 3. Démarrer le serveur Next.js
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le projet sera accessible à l'adresse : http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technos utilisées
 
-## Learn More
+-   Next.js
+-   GSAP (useGSAP, ScrollTrigger, SplitText)
+-   Sass
+-   Typescript
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Ressources utiles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   [Documentation de GSAP](https://gsap.com/docs/v3/)
+-   [Ma vidéo TikTok du projet](https://www.tiktok.com/@3mpty_x/video/7499920101043424534?is_from_webapp=1&sender_device=pc&web_id=7460868888696292887)
